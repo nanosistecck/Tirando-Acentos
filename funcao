@@ -1,0 +1,4 @@
+$acentos = array("Á","É","Í","Ó","Ú","é","í","ó","ú","á","Â","Ê","Ô","â","ê","ô","À","à","Ü","ü","Ç","ç","Ñ","ñ","Ã","Õ","ã","õ");
+$semacentos = array("A","E","I","O","U","e","i","o","u","a","A","E","O","a","e","o","A","a","U","u","C","c","N","n","A","O","a","o");
+
+$text_sem_acentos = str_replace($acentos,$semacentos ,$textoatiraracentos);
